@@ -1,4 +1,4 @@
-Slide 1: Title
+Title
 
 📚 BookMate API
 
@@ -6,7 +6,7 @@ Simple PHP RESTful API for managing books
 
 Your Name / Date
 
-Slide 2: Description
+Description
 
 BookMate allows you to add, view, edit, and delete books
 
@@ -14,7 +14,7 @@ JSON-based API responses
 
 Lightweight and easy to use
 
-Slide 3: Features
+Features
 
 Get all books (GET /books)
 
@@ -26,7 +26,7 @@ Delete a book (DELETE /books/{id})
 
 Simple frontend to interact with API
 
-Slide 4: Installation / Setup
+Installation / Setup
 
 Clone repository
 

@@ -1,45 +1,31 @@
-Title
+BookMate API Documentation
+🔹 Description
 
-📚 BookMate API
-
-Simple PHP RESTful API for managing books
-
-Your Name / Date
-
-Description
-
-BookMate allows you to add, view, edit, and delete books
-
-JSON-based API responses
-
-Lightweight and easy to use
+The BookMate API is a simple RESTful API built with PHP + MySQL that allows you to manage a library of books.
+It provides endpoints to create, read, update, and delete (CRUD) book records.
+The API is designed to be consumed by a frontend (e.g., index.html and list.html) but can also be tested with tools like Postman or cURL.
 
 Features
 
-Get all books (GET /books)
+📖 Add a new book (title & author)
+📑 View all books in the database
+✏ Update book details (title & author)
+🗑 Delete a book by ID
+🔄 Returns responses in JSON format
+🚀 Works with AJAX / Fetch API / Postman
 
-Add a new book (POST /books)
+Installation & Setup
+1. Install PHP
+If you don’t have PHP installed, download and install XAMPP (includes PHP, Apache, and MySQL):
+Install XAMPP on your computer.
+Open XAMPP Control Panel.
+Start Apache and MySQL services.
+2. Setup Database
+3. Setup Project Files
+4. Run the Project
 
-Edit a book (PUT /books/{id})
-
-Delete a book (DELETE /books/{id})
-
-Simple frontend to interact with API
-
-Installation / Setup
-
-Clone repository
-
-Move to project folder
-
-Setup PHP server (XAMPP)
-
-Create database bookmate
-
-Create books table:
-
-Code: CREATE TABLE books (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    author VARCHAR(255) NOT NULL
-);
+GET, POST, PUT, DELETE
+   1. Get All Books = Get
+   2. Add a New Book = POST
+   3. Update a Book = PUT
+   4. Delete a Book = DELETE

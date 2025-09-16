@@ -7,12 +7,12 @@ The API is designed to be consumed by a frontend (e.g., index.html and list.html
 
 Features
 
-📖 Add a new book (title & author)
-📑 View all books in the database
-✏ Update book details (title & author)
-🗑 Delete a book by ID
-🔄 Returns responses in JSON format
-🚀 Works with AJAX / Fetch API / Postman
+📖 Add a new book (title & author),
+📑 View all books in the database,
+✏ Update book details (title & author),
+🗑 Delete a book by ID,
+🔄 Returns responses in JSON format,
+🚀 Works with AJAX / Fetch API 
 
 Installation & Setup
 1. Install PHP
